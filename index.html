@@ -39,43 +39,41 @@
             <div class="flex-grow text-gray-700 md:w-2/3">
                 <h2 class="text-4xl font-bold mb-4 text-indigo-700">自己紹介</h2>
                 <p class="text-lg leading-relaxed mb-4">
-                    閲覧いただきありがとうございます！ 趣味は写真と美味しいものを食べること！特に瓦そばと甘いものが好きです。
+                    九州産業大学2年 松崎菜々実<br>閲覧いただきありがとうございます！ 趣味は写真と美味しいものを食べること！特に瓦そばと甘いものが好きです。
                 </p>
                 <p class="text-lg leading-relaxed">
-                    このポートフォリオでは、私のこれまでの活動や趣味を紹介しています。どうぞゆっくり見ていってください！
+                    このポートフォリオでは、workにはこれまでの課題、hobbyには趣味で撮影した写真を載せています。どうぞゆっくり見ていってください！
                 </p>
             </div>
         </div>
     </section>
 
     
-    <section id="work" class="section-container bg-white text-gray-800 hidden">
-        <div class="max-w-5xl w-full text-center p+1">
-            <h2 class="text-4xl font-bold mb-8 text-green-700"></h2>
-            <div class="relative w-full max-w-3xl mx-auto overflow-hidden">
-                <img id="work-slider-image"  alt="作品写真" class="w-full h-96 object-contain transition-opacity duration-500 ease-in-out">
-                <div class="absolute inset-0 flex items-center justify-between p-4">
-                    <button onclick="changeSlide('work', -1)" class="slider-button">◀</button>
-                    <button onclick="changeSlide('work', 1)" class="slider-button">▶</button>
-                </div>
-            </div>
-            <p id="work-image-caption" class="mt-4 text-gray-600 text-lg">Work 1</p>
+<section id="work" class="section-container bg-white text-gray-800 hidden">
+    <div class="max-w-5xl w-full text-center p-1">
+        <h2 class="text-4xl font-bold mb-8 text-green-700"></h2>
+        <div class="relative w-full max-w-3xl mx-auto overflow-hidden">
+            <img id="work-slider-image"  alt="作品写真" class="w-full h-96 object-contain transition-opacity duration-500 ease-in-out">
         </div>
-    </section>
+        <div class="absolute top-1/2 left-0 right-0 flex items-center justify-between -translate-y-1/2 px-10"> <button onclick="changeSlide('work', -1)" class="slider-button">◀</button>
+            <button onclick="changeSlide('work', 1)" class="slider-button">▶</button>
+        </div>
+        <p id="work-image-caption" class="mt-4 text-gray-600 text-lg">Work 1</p>
+    </div>
+</section>
 
-    <section id="hobby" class="section-container bg-white text-gray-800 hidden">
-        <div class="max-w-5xl w-full text-center p+1">
-            <h2 class="text-4xl font-bold mb-8 text-purple-700"></h2>
-            <div class="relative w-full max-w-xl mx-auto overflow-hidden">
-                <img id="hobby-slider-image"  alt="趣味写真" class="w-full h-96 object-cover transition-opacity duration-500 ease-in-out">
-                <div class="absolute inset-0 flex items-center justify-between p-4">
-                    <button onclick="changeSlide('hobby', -1)" class="slider-button">◀</button>
-                    <button onclick="changeSlide('hobby', 1)" class="slider-button">▶</button>
-                </div>
-            </div>
-            <p id="hobby-image-caption" class="mt-4 text-gray-600 text-lg">Hobby 1</p>
+<section id="hobby" class="section-container bg-white text-gray-800 hidden">
+    <div class="max-w-5xl w-full text-center p-1">
+        <h2 class="text-4xl font-bold mb-8 text-purple-700"></h2>
+        <div class="relative w-full max-w-xl mx-auto overflow-hidden">
+            <img id="hobby-slider-image"  alt="趣味写真" class="w-full h-96 object-cover transition-opacity duration-500 ease-in-out">
         </div>
-    </section>
+        <div class="absolute top-1/2 left-0 right-0 flex items-center justify-between -translate-y-1/2 px-10"> <button onclick="changeSlide('hobby', -1)" class="slider-button">◀</button>
+            <button onclick="changeSlide('hobby', 1)" class="slider-button">▶</button>
+        </div>
+        <p id="hobby-image-caption" class="mt-4 text-gray-600 text-lg">Hobby 1</p>
+    </div>
+</section>
 
     <script src="script.js"></script>
 </body>
